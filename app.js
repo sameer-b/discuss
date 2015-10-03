@@ -25,7 +25,7 @@ app.post('/newComment', function (request, response) {
     discuss.newComment(request.body.id, request.body.author, request.body.title, request.body.body, request, response);
 });
 
-app.post('/getAllThreads', function (request, response) {
+app.get('/getAllThreads', function (request, response) {
     discuss.getAllPosts('threads', request, response);
 });
 /*
