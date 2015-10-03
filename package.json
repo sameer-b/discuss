@@ -1,0 +1,17 @@
+{
+  "name": "discuss",
+  "version": "1.0.0",
+  "description": "restful api for discussion threads",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongodb" : "*",
+    "body-parser" : "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sameer Balasubrahmanyam",
+  "license": "ISC"
+}
